@@ -9,4 +9,10 @@ number1 = 0.1;
 number2 = 0.2;
 sum = number1 + number2;
 
-console.log(parseFloat(sum.toFixed(1))) 
+console.log(parseFloat(sum.toFixed(1)))
+
+// modulus 
+var mango = 13;
+var eater = 5;
+var remaining = mango % eater;
+console.log(remaining)
