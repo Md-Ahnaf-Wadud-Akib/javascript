@@ -23,22 +23,35 @@
 //     console.log("not getting married")
 // }
 
-var myMoney = 10;
-var barger = 60;
-var porota = 25;
-var cha = 5;
-milk = false;
-if (myMoney > barger) {
-    console.log("barger khabo");
+// var myMoney = 10;
+// var barger = 60;
+// var porota = 25;
+// var cha = 5;
+// milk = false;
+// if (myMoney > barger) {
+//     console.log("barger khabo");
+// }
+// else if (myMoney > porota) {
+//     console.log("porota khabo");
+// }
+// else {
+//     if (milk == true) {
+//         console.log("dudu cha khabo");
+//     }
+//     else {
+//         console.log("normal cha khabo");
+//     }
+// }
+
+var names = ["pen", "book", "notebook"];
+
+if (names.length > 4) {
+    console.log("your table is a mess");
 }
-else if (myMoney > porota) {
-    console.log("porota khabo");
+else if (names.length == 4) {
+    console.log("you have 4 items on the table");
 }
-else {
-    if (milk == true) {
-        console.log("dudu cha khabo");
-    }
-    else {
-        console.log("normal cha khabo");
-    }
+else (names.length < 4)
+{
+    console.log("you have a clean table");
 }

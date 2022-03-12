@@ -35,3 +35,5 @@ console.log(name1[1]);
 // changing array 
 name1[0] = "Md. Ahanf";
 console.log(name1);
+
+console.log(6 >= 6); 
