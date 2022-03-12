@@ -23,4 +23,15 @@ var name = ["Ahnaf", "Akib"];
 
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(number)
-console.log(number.length)
+// console.log(number.length);
+
+// Array length
+var name1 = ["Ahnaf", "Wadud", "Akib"];
+console.log(name1.length);
+// Array Index
+console.log(name1.indexOf("Akib"));
+//  Array Index-position
+console.log(name1[1]);
+// changing array 
+name1[0] = "Md. Ahanf";
+console.log(name1);
