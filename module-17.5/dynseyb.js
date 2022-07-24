@@ -15,13 +15,32 @@ var color = "pikachu";
 //     console.log("there are no color");
 // }
 
-switch (color) {
-    case 'red':
-        console.log("the color is red");
+// switch (color) {
+//     case 'red':
+//         console.log("the color is red");
+//         break;
+//     case 'blue':
+//         console.log("the color is blue");
+//         break;
+//     default:
+//         console.log("there are no color");
+// }
+
+// var i = 0;
+
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+//     if (i == 5) {
+//         break;
+//     }
+// }
+
+
+for (var i = 0; i <= 10; i++) {
+    console.log(i);
+    if (i == 5) {
         break;
-    case 'blue':
-        console.log("the color is blue");
-        break;
-    default:
-        console.log("there are no color");
+    }
+
 }
