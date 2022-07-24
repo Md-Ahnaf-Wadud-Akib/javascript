@@ -7,7 +7,7 @@
 
 var names, cat, i, position;
 
-names = ["Oreo", "Covid", "Lily", "TimTim", "MinMin"];
+names = ["Oreo", "Covid", "Lily", "TimTim", "MinMin", "Neko"];
 
 for (i = 0; i <= names.length; i++) {
     cat = names[i];
@@ -17,4 +17,13 @@ for (i = 0; i <= names.length; i++) {
         break;
     }
 
+}
+console.log("the position of Lily is: ");
+console.log(names.indexOf("Lily"));
+
+if (names.indexOf("Neko") == -1) {
+    console.log("Neko is not found.");
+}
+else {
+    console.log("Neko is also found.");
 }
