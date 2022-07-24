@@ -12,3 +12,6 @@ while (number <= 20) {
     console.log(number);
     number = number + 2;
 }
+
+var name = "false";
+console.log(typeof name);
