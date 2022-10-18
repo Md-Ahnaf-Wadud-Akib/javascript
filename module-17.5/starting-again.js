@@ -1,5 +1,13 @@
-var i, n = 7, t = 1;
-for (i = 1; i <= n; i++) {
-    t = t * i;
-    console.log(t);
+function factorial(number) {
+    var i, t = 1;
+    for (i = 1; i <= number; i++) {
+        t = t * i;
+
+    }
+
+    return t;
 }
+var getFactorial = factorial(7);
+console.log(getFactorial);
+
+
