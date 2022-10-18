@@ -1,3 +1,4 @@
+/*
 function factorial(number) {
     var i, t;
     while (i <= number) {
@@ -9,3 +10,15 @@ function factorial(number) {
 }
 const getFactorial = factorial(7);
 console.log(getFactorial);
+*/
+
+function factorial(n) {
+    if (n == 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+var a = factorial(7);
+console.log(a);
+
